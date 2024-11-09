@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mytest web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="scroll">👆🏻</div>
+    <div id="container">
+      <h1>
+        this is a popup 
+      </h1>
+       <button id="btnlog">login</button>
+       <button id="btnlog2">signup</button>
+    </div>
+    <!-- login -->
+  <div class="popup">
+        <div id="contentpop">  
+            <h1> login</h1>
+            <div id="light">
+            </div>
+  <div id="close">&times;</div>  
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button id="btn"> login</button><br>
+            <a href="#" id="signuplink">no account ? <strong>sign up</strong></a>
+        </div>
+    </div>
+    <!-- sign up -->
+    <div class="popup2">
+      <div id="contentpop2">  
+          <h1> signup</h1>
+          <div id="light2">
+          </div>
+<div id="close2">&times;</div>  
+          <input type="username" placeholder="Username">
+          <input type="email" placeholder="Email">
+          <input type="password"  placeholder="Password">
+          <button id="btn2"> sign up</button><br>
+          <a href="#" id="loginlink">already have account ? <strong>log in</strong></a>
+      </div>
+  </div>
+    <script src="popup.js"></script>
+</body>
+</html>
